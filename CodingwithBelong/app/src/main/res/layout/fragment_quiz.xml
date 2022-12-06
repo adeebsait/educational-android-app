@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Fragments.QuizFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Humans communicate with the computer using _____ language."
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+
+                <RadioGroup
+                    android:id="@+id/oneRg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/one1Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sign"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/one2Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="English"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/one3Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Machine"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/one4Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Programming"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Which of these would be a conditional operation?"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+
+                <RadioGroup
+                    android:id="@+id/twoRg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/two1Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Brushing teeth"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/two2Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Eating food"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/two3Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Eating food if you’re hungry"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/two4Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Walking"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" When your program changes behaviour on a question answered (like yes or no), it is making a __."
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+
+                <RadioGroup
+                    android:id="@+id/threeRg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/three1Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Variable"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/three2Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Data structure"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/three3Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sequential Selection"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/three4Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Script"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What is the concept called in programming of looping an action by making it repeat?"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+
+                <RadioGroup
+                    android:id="@+id/fourRg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/four1Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sequence"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/four2Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Iteration"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/four3Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Condition"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/four4Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Variable"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="In programming, when you place code in the order you want things to happen, you want the code to run _____."
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+
+                <RadioGroup
+                    android:id="@+id/fiveRg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/five1Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sequentially"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/five2Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Simultaneously"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/five3Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Conditionally"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/five4Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Incrementally"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Proper _____ ensures the computer reads and interprets code accurately."
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+
+                <RadioGroup
+                    android:id="@+id/sixRg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/six1Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Variable"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/six2Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RAM"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/six3Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Internet speed"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/six4Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Syntax"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What are software that are used to code and run programs called as?"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+
+                <RadioGroup
+                    android:id="@+id/sevenRg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/seven1Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Internet Browser"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/seven2Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Emulator"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/seven3Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Integrated Development Environment (IDE)"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/seven4Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Computer"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A data structure of fixed size, which can hold items of the same data type."
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+
+                <RadioGroup
+                    android:id="@+id/eightRg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/eight1Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="String"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/eight2Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Array"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/eight3Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Function"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/eight4Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Method"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Python and C++ is a Machine Level programming language"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+
+                <RadioGroup
+                    android:id="@+id/nineRg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/nine1Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="True"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/nine2Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="False"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Which of the following is not a Data Type?"
+                    android:textColor="@color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+
+                <RadioGroup
+                    android:id="@+id/tenRg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/ten1Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bool"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/ten2Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Verify"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/ten3Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Int"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:id="@+id/ten4Rb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="String"
+                        android:textColor="@color/black">
+
+                    </RadioButton>
+
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSubmit"
+            android:background="@drawable/buttonshape"
+            android:textColor="@color/white"
+            android:text="Submit"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

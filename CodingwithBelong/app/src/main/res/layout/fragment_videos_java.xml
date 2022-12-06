@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.VideosFragment">
+
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/v1Cv"
+       android:layout_margin="10dp"
+       app:cardElevation="3dp"
+       app:cardCornerRadius="6dp"
+       app:cardBackgroundColor="@color/white"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:padding="10dp">
+
+
+         <ImageView
+             android:layout_width="60dp"
+             android:layout_height="60dp"
+             android:layout_gravity="center_vertical"
+             android:src="@drawable/ic_baseline_smart_display_24"></ImageView>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_marginLeft="10dp"
+             android:text="What is Java? A Quick Introduction"
+             android:textColor="@color/black"
+             android:textSize="34sp">
+
+         </TextView>
+
+
+      </LinearLayout>
+
+   </androidx.cardview.widget.CardView>
+
+
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/v4Cv"
+       android:layout_margin="10dp"
+       app:cardElevation="3dp"
+       app:cardCornerRadius="6dp"
+       app:cardBackgroundColor="@color/white"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:padding="10dp">
+
+
+         <ImageView
+             android:layout_width="60dp"
+             android:layout_height="60dp"
+             android:layout_gravity="center_vertical"
+             android:src="@drawable/ic_baseline_smart_display_24"></ImageView>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_marginLeft="10dp"
+             android:text="Typecasting"
+             android:textColor="@color/black"
+             android:textSize="34sp">
+
+         </TextView>
+
+
+      </LinearLayout>
+
+   </androidx.cardview.widget.CardView>
+
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/v5Cv"
+       android:layout_margin="10dp"
+       app:cardElevation="3dp"
+       app:cardCornerRadius="6dp"
+       app:cardBackgroundColor="@color/white"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:padding="10dp">
+
+
+         <ImageView
+             android:layout_width="60dp"
+             android:layout_height="60dp"
+             android:layout_gravity="center_vertical"
+             android:src="@drawable/ic_baseline_smart_display_24"></ImageView>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_marginLeft="10dp"
+             android:text="Java OOPs Concept"
+             android:textColor="@color/black"
+             android:textSize="34sp">
+
+         </TextView>
+
+
+      </LinearLayout>
+
+   </androidx.cardview.widget.CardView>
+
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/v2Cv"
+       android:layout_margin="10dp"
+       app:cardElevation="3dp"
+       app:cardCornerRadius="6dp"
+       app:cardBackgroundColor="@color/white"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:padding="10dp">
+
+
+         <ImageView
+             android:layout_width="60dp"
+             android:layout_height="60dp"
+             android:layout_gravity="center_vertical"
+             android:src="@drawable/ic_baseline_smart_display_24"></ImageView>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_marginLeft="10dp"
+             android:text="Variable Scope"
+             android:textColor="@color/black"
+             android:textSize="34sp">
+
+         </TextView>
+
+
+      </LinearLayout>
+
+   </androidx.cardview.widget.CardView>
+
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/v3Cv"
+       android:layout_margin="10dp"
+       app:cardElevation="3dp"
+       app:cardCornerRadius="6dp"
+       app:cardBackgroundColor="@color/white"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:padding="10dp">
+
+
+         <ImageView
+             android:layout_width="60dp"
+             android:layout_height="60dp"
+             android:layout_gravity="center_vertical"
+             android:src="@drawable/ic_baseline_smart_display_24"></ImageView>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:layout_marginLeft="10dp"
+             android:text="Arrays in Java"
+             android:textColor="@color/black"
+             android:textSize="34sp">
+
+         </TextView>
+
+
+      </LinearLayout>
+
+   </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "283307160220",
+    "project_id": "belong-coding-app",
+    "storage_bucket": "belong-coding-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283307160220:android:1b61b993a87fa6ff207359",
+        "android_client_info": {
+          "package_name": "com.example.codingwithbelong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283307160220-v1e9lhfep8anmelq59lqndfguro7s1pt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqlwm1J46rjB4oSIS0PeoIsvax_Ej-yQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283307160220-v1e9lhfep8anmelq59lqndfguro7s1pt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
